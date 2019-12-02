@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'limitless';
+    src: url('KozGoPro-ExtraLight.otf');
+}
+
+h1 {
+    margin-left:10%; 
+    margin-top: 5%; 
+    float:left; 
+    width: 45%; 
+    color: black; 
+    font-weight: 400000; 
+    font-family: limitless; 
+    font-size: 75px;
+}
+
+h2{
+    margin-left:10%; 
+    margin-top: 2%; 
+    float:left; 
+ 
+    color: black; 
+    font-weight: 400000; 
+    font-family: limitless; 
+    font-size: 30px;
+}
+
+h3{
+    margin-left:10%; 
+    margin-top: 0%; 
+    float:left; 
+    width: 45%; 
+    color: gray; 
+    font-weight: 200; 
+    font-family: limitless; 
+    font-size: 25px;
+}
+.dropbtn {
+    background-color: lightgray;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin: 5px 8px 10px 5px;
+    width: 299px;
+    border-radius: 10px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 299px;
+    margin-left: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: #000;
+    background-color: lightgray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    margin: 4px;
+  }
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
+  
