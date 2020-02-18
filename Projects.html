@@ -14,18 +14,24 @@
         <script src="semantic/dist/semantic.min.js"></script>
     </head>
     <body>
-    <div style="margin: 2% 3% 2% 3%">
+    <!-- <div style="position: fixed;"> -->
+      <div style="margin: 2% 3% 2% 3%;">
         <div class="ui four item menu">
             <a class="item" href="index.html"><i class="home icon"></i>Home</a>
             <a class="item" href="WorkExperience.html"><i class="briefcase icon"></i>Work Experience</a>
             <a class="active item"><i class="edit outline icon"></i>Projects</a>
             <a class="item" href="#ContactMe"><i class="address card outline icon"></i>Contact Me</a>
         </div>
-    </div>
+      </div>
+    <!-- </div> -->
+    
+    
+    
+
     <!-- <div style="width: 90%; margin: 2% 5% 2% 5%; float: left; border: black 1px solid; border-radius: 1px;"></div> -->
     <!-- <h3 class="ui header" style="font-weight: 100; margin: 3% 0% 1.5% 15%; width: 60%; line-height: 30px"></h3> -->
     <div style="width: 100%; float: left;">
-      <h1 style="font-family: limitless; margin-left: 27%; text-align: center; margin-top: 2%">Projects</h1>
+      <h1 style="font-family: limitless; margin-left: 27%; text-align: center; margin-top: 2%" id="menubar">Projects</h1>
       <br> <p></p> <br> <p></p> <br> <p></p> 
       <div style="margin: 5% 30% 2% 30%; position: sticky;">
           <div class="ui four item menu">
@@ -35,6 +41,10 @@
               <a class="item" href="#twelfth">12th Grade</a>
           </div>
       </div>
+      <button class="ui black basic button" style="position: fixed; padding: 1px; color: black; margin-left: .3%; text-align: center;">
+          <a href="#menubar"><i class="angle up icon" style="color: black;"></i></a>
+      </button>
+      
       <br> <p></p> <br> <p></p>
     </div>
     <div style="width: 100%;" id="ninth"><h2 style="margin-left: 15%; margin-right: 15%;"></h2></div>
